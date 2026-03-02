@@ -1,13 +1,30 @@
+# Python bytecode cache directory
 __pycache__/
+
+# Compiled Python files (.pyc, .pyo, .pyd)
 *.py[cod]
+
+# Egg metadata directory
 *.egg-info/
+
+# Virtual environment directories
 .venv/
 venv/
-.env
-.DS_Store
-*.pyo
-*.pyd
-.Python
 env/
 env.bak/
+
+# Environment variables file
+.env
+
+# macOS system files
+.DS_Store
+
+# Additional compiled Python files
+*.pyo
+*.pyd
+
+# Python installation marker
+.Python
+
+# Static files directory
 nostatic/
