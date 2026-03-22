@@ -6,15 +6,46 @@ A collection of Python projects built while learning programming fundamentals. T
 ### Rock Paper Scissors CLI
 A terminal-based rock-paper-scissors game where you can play against the computer.
 
-- **Location:** `rock-paper-scissors-cli/`
+- **Location:** `Rock-Paper-Scissors-CLI/`
 - **Description:** Interactive CLI game with score tracking
 - **Getting Started:** 
   ```bash
-  cd rock-paper-scissors-cli
+  cd Rock-Paper-Scissors-CLI
   python main.py
   ```
 
-*More projects coming soon!*
+### Hangman
+A classic word-guessing game where you try to figure out a hidden word by guessing letters.
+
+- **Location:** `Hangman/`
+- **Description:** Interactive word-guessing game with limited attempts
+- **Getting Started:** 
+  ```bash
+  cd Hangman
+  python main.py
+  ```
+
+### Secret Auction
+A blind auction application where multiple bidders can place secret bids and the highest bidder wins.
+
+- **Location:** `Secret-Auction/`
+- **Description:** Multi-player auction system with sealed bids
+- **Getting Started:** 
+  ```bash
+  cd Secret-Auction
+  python main.py
+  ```
+
+### Accumulative Calculator
+A calculator that performs sequential operations and maintains a running total.
+
+- **Location:** `accumulative-calculator/`
+- **Description:** Calculator with accumulative calculation capabilities
+- **Getting Started:** 
+  ```bash
+  cd accumulative-calculator
+  python main.py
+  ```
 
 ## 🚀 Getting Started
 
@@ -67,13 +98,28 @@ python-learning-projects/
 ├── LICENSE
 ├── .gitignore
 │
-└── rock-paper-scissors-cli/
+├── Rock-Paper-Scissors-CLI/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── main.py
+│   ├── game.py
+│   └── tests/
+│       └── test_game.py
+│
+├── Hangman/
+│   ├── README.md
+│   ├── main.py
+│   └── game.py
+│
+├── Secret-Auction/
+│   ├── README.md
+│   ├── main.py
+│   └── auction.py
+│
+└── accumulative-calculator/
     ├── README.md
-    ├── requirements.txt
     ├── main.py
-    ├── game.py
-    └── tests/
-        └── test_game.py
+    └── calculator.py
 ```
 
 ## 🎯 Goals
@@ -94,8 +140,6 @@ python-learning-projects/
 ## 💡 Future Projects
 
 - [ ] To-Do List Application
-- [ ] Calculator
-- [ ] Hangman Game
 - [ ] More coming soon...
 
 ## 📄 License
